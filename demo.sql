@@ -18,6 +18,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Dumping data for table demo.users: ~1 rows (approximately)
 DELETE FROM `users`;
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `phone`, `password`, `created`) VALUES
-	(5, 'john', 'doe', 'johndoe@example.com', '+00 0000 0000', '$2y$04$jFPJT4gGp44h1YJed8X/4.cfI4194g1Ce8oFBsd16pE7QS.QijLYK', '2017-10-11 00:35:38');
+	(5, 'john', 'doe', 'johndoe@example.com', '+00 0000 0000', '123654', '2017-10-11 00:35:38');
 
 
