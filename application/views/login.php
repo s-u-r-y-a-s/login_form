@@ -30,9 +30,6 @@ body {
             <span class="col-md-12 text-center">
                 <h2>Login</h2>
 </span>
-<span>
-    <a href="<?php echo base_url()."index.php/user/Register"?>" >New User</a>
-</span>
         </div>    
 
         <div class="row">
@@ -56,6 +53,11 @@ body {
                 <label class="control-label col-sm-4 text-right"></label>
                 <div class="col-sm-5">
                     <button class="btn btn-outline-success" type="submit"> Submit</button>
+					<span>
+                    <button class="btn btn-outline-success" id ="new">
+                        <a href="<?php echo base_url()."index.php/user/Register"?>"  >New User</a>
+                       </button>
+                	</span>
                 </div>
             </div>
         </form>
