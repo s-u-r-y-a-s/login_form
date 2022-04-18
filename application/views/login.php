@@ -20,6 +20,9 @@ body {
 .custom-bottom-margin {
     padding-bottom: 30px;
 }
+#new {
+    margin-left:70%;
+}
 </style>
 
 <body>
@@ -54,9 +57,7 @@ body {
                 <div class="col-sm-5">
                     <button class="btn btn-outline-success" type="submit"> Submit</button>
 					<span>
-                    <button class="btn btn-outline-success" id ="new">
-                        <a href="<?php echo base_url()."index.php/user/Register"?>"  >New User</a>
-                       </button>
+                        <a  id ="new" href="<?php echo base_url()."index.php/user/Register"?>"  >New User</a>
                 	</span>
                 </div>
             </div>
